@@ -1,0 +1,351 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000000;
+    background-size: 100%;
+    color: white;
+    font-family: 'Inconsolata', monospace;
+}
+
+body::-webkit-scrollbar {
+    width: 12px;         
+}
+  
+body::-webkit-scrollbar-track {
+    background: #000000;        
+}
+  
+body::-webkit-scrollbar-thumb {
+    background-color: #c9d612;   
+    border-radius: 20px;      
+    border: 3px solid #c9d612;  
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav-site {
+    background-color: #c9d612;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.nav-my-name button {
+    background-color: transparent;
+    border: 0px;
+    color: #000000;
+    font-weight: bold;
+    cursor: pointer;
+    width: 200px;
+    height: 30px;
+    transition: 0.5s;
+    font-size: 16px;
+}
+
+.nav-link {
+    color: #000000;
+    font-weight: bold;
+    text-align: center;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.nav-item:hover {
+    background-color: #000000;
+    border-radius: 8px;
+    transition: 0.5s;
+}
+
+.nav-item .nav-link button {
+    background-color: transparent;
+    border: none;
+    color: #000000;
+    font-weight: bold;
+    cursor: pointer;
+    width: 120px;
+    height: 30px;
+    transition: 0.5s;
+    font-size: 16px;
+}
+
+.nav-item .nav-link button:hover {
+    color: #c9d612;
+    transition: 0.5s;
+}
+
+.nav-my-name button:hover {
+    color: #c9d612;
+    background-color: #000000;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.nav-link:hover {
+    color: #c9d612;
+    transition: 0.5s;
+}
+
+.main {
+    display: flex;
+    padding: 3rem;
+    justify-content: center;
+    background-size: 100%;
+    margin-top: 50px;
+}
+
+.about-me {
+    text-align: center;
+    max-width: 800px;
+    padding: 6rem;
+}
+
+.about-me .description {
+    text-align: center;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.my-photo {
+    margin: auto;
+}
+
+.my-photo img {
+    border-radius: 50%;
+    width: 300px;
+    border: 2px solid #c9d612; 
+}
+
+.photo-title {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.technologies {
+    text-align: center;
+    margin-top: 50px;
+    background-color: #c9d612;
+    color: #000000;
+    height: 300px;
+}
+
+.technologies h2 {
+    margin-bottom: 30px;
+    font-weight: 900;
+}
+
+.ul-technologies-top {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.ul-technologies-bottom {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.ul-technologies-top .technologies-element,
+.ul-technologies-bottom .technologies-element {
+    margin: auto;
+    text-align: center;
+    height: 90px;
+    width: 160px;
+    align-items: center;
+    display: flex;
+}
+
+.ul-technologies-top .technologies-element .tech-container,
+.ul-technologies-bottom .technologies-element .tech-container {
+    display: flex;
+    align-items: center;
+    background-color: #000000;
+    border-radius: 8px;
+    color: #c9d612;
+    padding: 6px;
+    min-width: 180px;
+    max-height: 87px;
+    justify-content: space-between;
+}
+
+.ul-technologies-top li img,
+.ul-technologies-bottom li img {
+    margin-top: 10px;
+    height: 90px;
+    width: 60px;
+}
+
+
+
+
+
+
+
+.projects {
+    margin-top: 100px;
+}
+
+.projects h2 {
+    text-align: center;
+    color: #c9d612;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+
+.projects-cards {
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+    margin-left: 50px;
+}
+
+.projects .project-container {
+    background-color: #c9d612;
+    width: 300px;
+    border-radius: 8px;
+    padding: 4px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.project-img {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.projects img {
+    width: 250px;
+    border-radius: 8px;
+}
+
+.project-description {
+    text-align: center;
+    margin-top: 4px;
+    color: #000000;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.project-list {
+    list-style: square;
+    margin-left: 20px;
+    color: #000000;
+    font-weight: 900;
+}
+
+.project-technologies h3 {
+    color: #000000;
+    font-weight: 900;
+    margin-bottom: 6px;
+}
+
+.project-list .project-element {
+    margin: auto;
+}
+
+.project-link {
+    text-align: center; 
+    margin-top: 20px;
+}
+
+.project-link a button {
+    width: 100px;
+    height: 30px;
+    border-radius: 6px;
+    background-color: transparent;
+    border: 1px solid #000000;
+}
+
+.project-link a button:hover {
+    width: 100px;
+    height: 30px;
+    border-radius: 6px;
+    cursor: pointer;
+    background-color: #000000;
+    color: #c9d612;
+    transition: 0.5s;
+}
+
+
+
+
+
+
+
+
+
+
+.university {
+    border: 1px solid red;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.contact {
+    border: 1px solid red;
+    margin-top: 50px;
+    height: 100px;
+    text-align: center;
+}
+
+.contact img {
+    margin-top: 30px;
+}
+
+
+/* Fazer resposividade */
+/* colocar minhas fotos e sessões que participei da faculdade */
+/* acessibilidade (mudar cores de fonte) */
+/* colocar um favicon */
+/* colocar titulo em cada projeto do portifólio */
+/* colocar os elementos da lista do lado um do outro */
+
+
+
+/* Animation */
+
+.main {
+    animation: Padrao .7s .2s backwards;
+}
+
+[data-animation] {
+    opacity: 0;
+    transition: .5s;
+}
+
+[data-animation="center"] {
+    transform: translate3d(0, 50px, 0);
+}
+
+[data-animation].animation {
+    opacity: 1;
+    transform: translate3d(0,0,0);
+}
+
+@keyframes Padrao {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
