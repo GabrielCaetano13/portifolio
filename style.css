@@ -212,7 +212,7 @@ a {
     display: flex;
     gap: 6px;
     flex-wrap: wrap;
-    margin-left: 50px;
+    margin-left: 200px;
 }
 
 .projects .project-container {
@@ -270,6 +270,7 @@ a {
     border-radius: 6px;
     background-color: transparent;
     border: 1px solid #000000;
+    font-weight: 600;
 }
 
 .project-link a button:hover {
