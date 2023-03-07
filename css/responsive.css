@@ -5,8 +5,29 @@
         box-sizing: border-box;
     }
 
-    body {
-        max-width: 100%;
+    .nav-site .nav-my-name {
+        margin: auto;
+        margin-bottom: 10px;
+    }
+
+    .nav-site {
+        display: flex;
+        justify-content: center;
+        padding: 15px;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: flex-start;
+    }
+
+    .nav-list {
+        list-style: none;
+        display: flex;
+        gap: 30px;
+        align-content: center;
+        flex-wrap: wrap;
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: center;
     }
 
     .main {
@@ -25,7 +46,7 @@
     .about-me .description {
         margin-top: 50px;
         text-align: center;
-        color: rgb(255, 255, 255);
+        color: #ffffff;
         font-size: 20px;
         width: 365px;
     }
