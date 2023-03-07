@@ -104,7 +104,7 @@ a {
     padding: 3rem;
     justify-content: center;
     background-size: 100%;
-    margin-top: 50px;
+    margin-top: 70px;
 }
 
 .about-me {
@@ -191,12 +191,6 @@ a {
     width: 60px;
 }
 
-
-
-
-
-
-
 .projects {
     margin-top: 100px;
 }
@@ -222,6 +216,11 @@ a {
     padding: 4px;
     margin-left: 10px;
     margin-bottom: 20px;
+}
+
+.project-title {
+    color: #000000;
+    text-align: center;
 }
 
 .project-img {
@@ -283,41 +282,28 @@ a {
     transition: 0.5s;
 }
 
-
-
-
-
-
-
-
-
-
-.university {
+/* .university {
     border: 1px solid red;
     margin-top: 50px;
     text-align: center;
-}
+} */
 
 .contact {
-    border: 1px solid red;
+    border: 1px solid black;
     margin-top: 50px;
-    height: 100px;
+    height: 200px;
     text-align: center;
+    background-color: #c9d612;
 }
 
 .contact img {
     margin-top: 30px;
 }
 
-
-/* Fazer resposividade */
-/* colocar minhas fotos e sessões que participei da faculdade */
-/* acessibilidade (mudar cores de fonte) */
-/* colocar um favicon */
-/* colocar titulo em cada projeto do portifólio */
-/* colocar os elementos da lista do lado um do outro */
-
-
+.contact .contact-title {
+    color: #000000;
+    margin-top: 50px;
+}
 
 /* Animation */
 

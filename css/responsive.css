@@ -1,0 +1,57 @@
+@media (max-width: 500px) {
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        max-width: 100%;
+    }
+
+    .main {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .about-me {
+        text-align: center;
+        min-width: 355px;
+        height: 507px;
+        padding: 0;
+        margin-left: -21px;
+    }
+
+    .about-me .description {
+        margin-top: 50px;
+        text-align: center;
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+        width: 365px;
+    }
+
+    .technologies {
+        text-align: center;
+        margin-top: 50px;
+        background-color: #c9d612;
+        color: #000000;
+        height: 550px;
+    }
+
+    .technologies-items {
+        display: flex;
+        gap: 30px;
+        margin-left: 15px;
+    }
+
+    .ul-technologies-top, .ul-technologies-bottom {
+        display: flex;
+        flex-direction: column;
+        margin-top: 0px;
+    }
+
+    .projects-cards {
+        margin-left: 50px;
+    }
+
+}
