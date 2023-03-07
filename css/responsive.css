@@ -25,7 +25,7 @@
         gap: 30px;
         align-content: center;
         flex-wrap: wrap;
-        flex-direction: row-reverse;
+        flex-direction: row;
         justify-content: center;
         align-items: center;
     }
@@ -73,6 +73,44 @@
 
     .projects-cards {
         margin-left: 50px;
+    }
+
+}
+
+@media (max-width: 380px) {
+    .about-me .description {
+        margin-top: 50px;
+        text-align: center;
+        color: #ffffff;
+        font-size: 20px;
+        width: 330px;
+    }
+
+    .ul-technologies-top .technologies-element,
+    .ul-technologies-bottom .technologies-element {
+        margin: auto;
+        text-align: center;
+        height: 95px;
+        width: 149px;
+        align-items: center;
+        display: flex;
+    }
+
+    .ul-technologies-top .technologies-element .tech-container,
+    .ul-technologies-bottom .technologies-element .tech-container {
+        display: flex;
+        align-items: center;
+        background-color: #000000;
+        border-radius: 8px;
+        color: #c9d612;
+        padding: 6px;
+        min-width: 159px;
+        max-height: 87px;
+        justify-content: space-between;
+    }
+
+    .projects-cards {
+        margin-left: 30px;
     }
 
 }
