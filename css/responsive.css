@@ -83,7 +83,7 @@
         text-align: center;
         color: #ffffff;
         font-size: 20px;
-        width: 330px;
+        width: 320px;
     }
 
     .ul-technologies-top .technologies-element,
@@ -112,5 +112,40 @@
     .projects-cards {
         margin-left: 30px;
     }
-
 }
+
+@media (max-width: 395px) {
+    .my-photo img {
+        border-radius: 50%;
+        width: 260px;
+        border: 2px solid #c9d612;
+    }
+
+    .about-me {
+        text-align: center;
+        min-width: 175px;
+        height: 507px;
+        padding: 0;
+        margin-left: -21px;
+    }
+
+    .about-me .description {
+        margin-top: 50px;
+        text-align: center;
+        color: #ffffff;
+        font-size: 20px;
+        width: 305px;
+    }
+
+    .technologies-items {
+        display: flex;
+        gap: 21px;
+        margin-left: 11px;
+    }
+
+    .projects-cards {
+        margin-left: 20px;
+    }
+}
+
+
