@@ -1,4 +1,76 @@
-@media (max-width: 500px) {
+@media only screen and (max-width: 413px) and (min-width: 411px) {
+    .nav-site .nav-my-name {
+        margin: auto;
+        margin-bottom: 1rem;
+    }
+
+    .nav-site {
+        display: flex;
+        justify-content: center;
+        padding: 15px;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: flex-start;
+    }
+
+    .nav-list {
+        list-style: none;
+        display: flex;
+        gap: 30px;
+        align-content: center;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .main {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .about-me {
+        text-align: center;
+        min-width: 355px;
+        height: 507px;
+        padding: 0;
+        margin-left: -21px;
+    }
+
+    .about-me .description {
+        margin-top: 50px;
+        text-align: center;
+        color: #ffffff;
+        font-size: 20px;
+        width: 21.5rem;
+    }
+
+    .technologies {
+        text-align: center;
+        margin-top: 6rem;
+        background-color: #c9d612;
+        color: #000000;
+        height: 40rem;
+    }
+
+    .technologies-items {
+        display: flex;
+        gap: 1rem;
+        margin-left: 15px;
+    }
+
+    .ul-technologies-top, .ul-technologies-bottom {
+        display: flex;
+        flex-direction: column;
+        margin-top: 0px;
+    }
+
+    .projects-cards {
+        margin-left: 11.5%;
+    }
+}
+
+@media only screen and (max-width: 415px) and (min-width: 413px) {
     * {
         padding: 0;
         margin: 0;
@@ -7,7 +79,7 @@
 
     .nav-site .nav-my-name {
         margin: auto;
-        margin-bottom: 10px;
+        margin-bottom: 1rem;
     }
 
     .nav-site {
@@ -53,15 +125,89 @@
 
     .technologies {
         text-align: center;
-        margin-top: 50px;
+        margin-top: 6rem;
         background-color: #c9d612;
         color: #000000;
-        height: 550px;
+        height: 40rem;
     }
 
     .technologies-items {
         display: flex;
+        gap: 1rem;
+        margin-left: 15px;
+    }
+
+    .ul-technologies-top, .ul-technologies-bottom {
+        display: flex;
+        flex-direction: column;
+        margin-top: 0px;
+    }
+
+    .projects-cards {
+        margin-left: 50px;
+    }
+} 
+
+@media only screen and (min-width: 374px) and (max-width: 376px) {
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    .nav-site .nav-my-name {
+        margin: auto;
+        margin-bottom: 1rem;
+    }
+
+    .nav-site {
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: flex-start;
+    }
+
+    .nav-list {
+        list-style: none;
+        display: flex;
         gap: 30px;
+        align-content: center;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .my-photo img {
+        width: 17.5rem;
+    }
+
+    .main {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .about-me {
+        text-align: center;
+        min-width: 20rem;
+        height: 507px;
+        padding: 0;
+        margin-left: -21px;
+    }
+
+    .technologies {
+        text-align: center;
+        margin-top: 6rem;
+        background-color: #c9d612;
+        color: #000000;
+        height: 38rem;
+    }
+
+    .technologies-items {
+        display: flex;
+        gap: 1.5rem;
         margin-left: 15px;
     }
 
@@ -75,9 +221,7 @@
         margin-left: 50px;
     }
 
-}
 
-@media (max-width: 380px) {
     .about-me .description {
         margin-top: 50px;
         text-align: center;
@@ -113,39 +257,4 @@
         margin-left: 30px;
     }
 }
-
-@media (max-width: 395px) {
-    .my-photo img {
-        border-radius: 50%;
-        width: 260px;
-        border: 2px solid #c9d612;
-    }
-
-    .about-me {
-        text-align: center;
-        min-width: 175px;
-        height: 507px;
-        padding: 0;
-        margin-left: -21px;
-    }
-
-    .about-me .description {
-        margin-top: 50px;
-        text-align: center;
-        color: #ffffff;
-        font-size: 20px;
-        width: 305px;
-    }
-
-    .technologies-items {
-        display: flex;
-        gap: 21px;
-        margin-left: 11px;
-    }
-
-    .projects-cards {
-        margin-left: 20px;
-    }
-}
-
 
