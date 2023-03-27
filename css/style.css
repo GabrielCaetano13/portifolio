@@ -1,3 +1,8 @@
+/* 
+#c9d612 (amarelo)
+#333333 (cinza escuro)
+ */
+
 * {
     padding: 0;
     margin: 0;
@@ -16,13 +21,12 @@ body::-webkit-scrollbar {
 }
   
 body::-webkit-scrollbar-track {
-    background: #000000;        
+    background: #333333;        
 }
   
 body::-webkit-scrollbar-thumb {
-    background-color: #c9d612;   
-    border-radius: 2rem;      
-    border: 3px solid #c9d612;  
+    background-color: #ffffff;       
+    border: 3px solid #ffffff;  
 }
 
 html {
@@ -34,7 +38,7 @@ a {
 }
 
 .nav-site {
-    background-color: #c9d612;
+    background-color: #333333;
     display: flex;
     justify-content: space-between;
     padding: 1rem;
@@ -43,7 +47,7 @@ a {
 .nav-my-name button {
     background-color: transparent;
     border: none;
-    color: #000000;
+    color: #ffffff;
     font-weight: bold;
     cursor: pointer;
     width: 10rem;
@@ -53,7 +57,7 @@ a {
 }
 
 .nav-link {
-    color: #000000;
+    color: #ffffff;
     font-weight: bold;
     text-align: center;
 }
@@ -73,7 +77,7 @@ a {
 .nav-item .nav-link button {
     background-color: transparent;
     border: none;
-    color: #000000;
+    color: #fffffe;
     font-weight: bold;
     cursor: pointer;
     width: 8rem;
@@ -103,6 +107,7 @@ a {
     display: flex;
     padding: 3rem;
     justify-content: center;
+    align-items: center;
     background-size: 100%;
     margin-top: 8rem;
 }
@@ -126,7 +131,7 @@ a {
 .my-photo img {
     border-radius: 50%;
     width: 20rem;
-    border: 3px solid #c9d612; 
+    border: 3px solid #ffffff; 
 }
 
 .photo-title {
@@ -138,8 +143,8 @@ a {
 .technologies {
     text-align: center;
     margin-top: 10rem;
-    background-color: #c9d612;
-    color: #000000;
+    background-color: #333333;
+    color: #ffffff;
     height: 22rem;
 }
 
@@ -151,12 +156,14 @@ a {
 .ul-technologies-top {
     list-style: none;
     display: flex;
+    justify-content: center;
     align-items: center;
 }
 
 .ul-technologies-bottom {
     list-style: none;
     display: flex;
+    justify-content: center;
     align-items: center;
     margin-top: 2rem;
 }
@@ -167,21 +174,22 @@ a {
     text-align: center;
     height: 6rem;
     width: 11rem;
-    align-items: center;
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .ul-technologies-top .technologies-element .tech-container,
 .ul-technologies-bottom .technologies-element .tech-container {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     background-color: #000000;
     border-radius: 0.75rem;
-    color: #c9d612;
+    color: #ffffff;
     padding: 0.5rem;
     min-width: 11rem;
     max-height: 5.5rem;
-    justify-content: space-between;
 }
 
 .ul-technologies-top li img,
@@ -197,29 +205,29 @@ a {
 
 .projects h2 {
     text-align: center;
-    color: #c9d612;
+    color: #ffffff;
     font-weight: 900;
     margin-bottom: 2rem;
 }
 
 .projects-cards {
     display: flex;
-    gap: 0.25rem;
     flex-wrap: wrap;
-    margin-left: 15.5%;
+    justify-content: center;
+    gap: 60px;
 }
 
 .projects .project-container {
-    background-color: #c9d612;
+    background-color: #333333;
     width: 18.75rem;
     border-radius: 0.75rem;
     padding: 0.5rem;
-    margin-left: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    transition: 0.4s;
 }
 
 .project-title {
-    color: #000000;
+    color: #ffffff;
     text-align: center;
 }
 
@@ -236,7 +244,7 @@ a {
 .project-description {
     text-align: center;
     margin-top: 0.5rem;
-    color: #000000;
+    color: #ffffff;
     font-weight: 900;
     margin-bottom: 1.25rem;
 }
@@ -244,12 +252,12 @@ a {
 .project-list {
     list-style: square;
     margin-left: 1.25rem;
-    color: #000000;
+    color: #ffffff;
     font-weight: 900;
 }
 
 .project-technologies h3 {
-    color: #000000;
+    color: #ffffff;
     font-weight: 900;
     margin-bottom: 1rem;
 }
@@ -270,6 +278,7 @@ a {
     background-color: transparent;
     border: 1px solid #000000;
     font-weight: 600;
+    color: #ffffff;
 }
 
 .project-link a button:hover {
@@ -293,7 +302,7 @@ a {
     margin-top: 50px;
     height: 200px;
     text-align: center;
-    background-color: #c9d612;
+    background-color: #333333;
 }
 
 .contact img {
@@ -301,7 +310,7 @@ a {
 }
 
 .contact .contact-title {
-    color: #000000;
+    color: #ffffff;
     margin-top: 50px;
 }
 
