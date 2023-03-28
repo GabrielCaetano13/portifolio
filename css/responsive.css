@@ -131,223 +131,6 @@
     }
 }
 
-/* LG Optimus L70  */
-@media only screen and (max-width: 385px) and (min-width: 383px) {
-    .my-photo img {
-        width: 18rem;
-    }
-
-    .about-me {
-        text-align: center;
-        min-width: 22rem;
-        height: 507px;
-        padding: 0;
-        margin-left: -2.25rem;
-    }
-
-    .about-me .description {
-        margin-top: 50px;
-        text-align: center;
-        font-size: 1.2;
-        width: 22rem;
-    }
-
-    .technologies {
-        text-align: center;
-        margin-top: 2rem;
-        height: 38rem;
-    }
-
-    .technologies-items {
-        display: flex;
-        gap: 0.25rem;
-        margin-left: 0.5rem;
-    }
-
-    .projects-cards {
-        margin-left: 9.5%;
-    }
-}
-
-/* Pixel 3, 3 XL */
-@media only screen and (max-width: 394px) and (min-width: 392px) {
-    .my-photo img {
-        width: 18.5rem;
-    }
-
-    .about-me {
-        text-align: center;
-        min-width: 22rem;
-        height: 507px;
-        padding: 0;
-        margin-left: -1.75rem;
-    }
-
-    .about-me .description {
-        margin-top: 50px;
-        text-align: center;
-        font-size: 1.2;
-        width: 22rem;
-    }
-
-    .technologies {
-        text-align: center;
-        margin-top: 2rem;
-        height: 38rem;
-    }
-
-    .technologies-items {
-        display: flex;
-        gap: 0.25rem;
-        margin-left: 0.75rem;
-    }
-
-    .projects-cards {
-        margin-left: 9.5%;
-    }
-}
-
-/* Galaxy S9, Note 8, S8 */
-@media only screen and (max-width: 361px) and (min-width: 359px) {
-    .about-me {
-        text-align: center;
-        min-width: 20rem;
-        height: 507px;
-        padding: 0;
-        margin-left: -2.5rem;
-    }
-
-    .about-me .description {
-        margin-top: 50px;
-        text-align: center;
-        font-size: 1.2;
-        width: 21rem;
-    }
-
-    .my-photo img {
-        width: 16.5rem;
-    }
-
-    .photo-title {
-        text-align: center;
-        margin-top: 0.5rem;
-        font-size: 1.20rem;
-    }
-
-    .technologies {
-        text-align: center;
-        margin-top: 4rem;
-        height: 38rem;
-    }
-
-    .technologies-items {
-        display: flex;
-        gap: 0.25rem;
-        margin-left: 0.75rem;
-    }
-
-    .ul-technologies-top, .ul-technologies-bottom {
-        display: flex;
-        flex-direction: column;
-        margin-top: 0px;
-    }
-
-    .ul-technologies-top .technologies-element,
-    .ul-technologies-bottom .technologies-element {
-        margin: auto;
-        text-align: center;
-        height: 6rem;
-        width: 10rem;
-        align-items: center;
-        display: flex;
-    }
-
-    .ul-technologies-top .technologies-element .tech-container,
-    .ul-technologies-bottom .technologies-element .tech-container {
-        display: flex;
-        align-items: center;
-        border-radius: 8px;
-        padding: 6px;
-        min-width: 159px;
-        max-height: 87px;
-        justify-content: space-between;
-    }
-
-    .projects-cards {
-        margin-left: 5.5%;
-    }
-}
-
-/* Galaxy S9 Plus, S8 Plus */
-@media only screen and (max-width: 413px) and (min-width: 411px) {
-    .nav-site .nav-my-name {
-        margin: auto;
-        margin-bottom: 1rem;
-    }
-
-    .nav-site {
-        display: flex;
-        justify-content: center;
-        padding: 15px;
-        flex-direction: column;
-        flex-wrap: wrap;
-        align-items: flex-start;
-    }
-
-    .nav-list {
-        list-style: none;
-        display: flex;
-        gap: 30px;
-        align-content: center;
-        flex-wrap: wrap;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .main {
-        display: flex;
-        flex-direction: column-reverse;
-    }
-
-    .about-me {
-        text-align: center;
-        min-width: 355px;
-        height: 507px;
-        padding: 0;
-        margin-left: -21px;
-    }
-
-    .about-me .description {
-        margin-top: 50px;
-        text-align: center;
-        font-size: 20px;
-        width: 21.5rem;
-    }
-
-    .technologies {
-        text-align: center;
-        margin-top: 6rem;
-        height: 40rem;
-    }
-
-    .technologies-items {
-        display: flex;
-        gap: 1rem;
-        margin-left: 15px;
-    }
-
-    .ul-technologies-top, .ul-technologies-bottom {
-        display: flex;
-        flex-direction: column;
-        margin-top: 0px;
-    }
-
-    .projects-cards {
-        margin-left: 11.5%;
-    }
-}
-
 /* iPhone XR, XS Max */
 @media only screen and (max-width: 415px) and (min-width: 413px) {
     * {
@@ -384,34 +167,35 @@
     .main {
         display: flex;
         flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
     }
 
     .about-me {
         text-align: center;
-        min-width: 355px;
-        height: 507px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 400px;
         padding: 0;
-        margin-left: -21px;
     }
 
     .about-me .description {
         margin-top: 50px;
         text-align: center;
         font-size: 20px;
-        width: 365px;
     }
 
     .technologies {
         text-align: center;
         margin-top: 6rem;
         color: #000000;
-        height: 40rem;
+        height: 36rem;
     }
 
     .technologies-items {
         display: flex;
         gap: 1rem;
-        margin-left: 15px;
     }
 
     .ul-technologies-top, .ul-technologies-bottom {
@@ -419,11 +203,160 @@
         flex-direction: column;
         margin-top: 0px;
     }
+}
 
-    .projects-cards {
-        margin-left: 50px;
+/* Galaxy S9 Plus, S8 Plus */
+@media only screen and (max-width: 413px) and (min-width: 411px) {
+    .nav-site .nav-my-name {
+        margin: auto;
+        margin-bottom: 1rem;
     }
-} 
+
+    .nav-site {
+        display: flex;
+        justify-content: center;
+        padding: 15px;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: flex-start;
+    }
+
+    .nav-list {
+        list-style: none;
+        display: flex;
+        gap: 30px;
+        align-content: center;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .main {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+    }
+
+    .my-photo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about-me {
+        text-align: center;
+        height: 400px;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about-me .description {
+        margin-top: 50px;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .technologies {
+        text-align: center;
+        margin-top: 6rem;
+        height: 40rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .technologies-items {
+        display: flex;
+        gap: 1rem;
+    }
+
+    .ul-technologies-top, .ul-technologies-bottom {
+        display: flex;
+        flex-direction: column;
+        margin-top: 0px;
+    }
+}
+
+/* Pixel 3, 3 XL */
+@media only screen and (max-width: 394px) and (min-width: 392px) {
+    .my-photo img {
+        width: 18.5rem;
+    }
+
+    .about-me {
+        text-align: center;
+        height: 400px;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about-me .description {
+        margin-top: 50px;
+        text-align: center;
+        font-size: 1.2rem;
+    }
+
+    .technologies {
+        text-align: center;
+        margin-top: 2rem;
+        height: 38rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .technologies-items {
+        display: flex;
+        gap: 0.25rem;
+    }
+}
+
+/* LG Optimus L70  */
+@media only screen and (max-width: 385px) and (min-width: 383px) {
+    .my-photo img {
+        width: 18rem;
+    }
+
+    .about-me {
+        text-align: center;
+        height: 400px;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about-me .description {
+        margin-top: 50px;
+        text-align: center;
+        font-size: 1.2rem;
+    }
+
+    .technologies {
+        text-align: center;
+        margin-top: 2rem;
+        height: 38rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .technologies-items {
+        display: flex;
+        gap: 0.25rem;
+    }
+}
 
 /* iPhone XS, X */
 @media only screen and (min-width: 374px) and (max-width: 376px) {
@@ -487,10 +420,16 @@
         text-align: center;
         margin-top: 6rem;
         height: 38rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     .technologies-items {
         display: flex;
+        justify-content: center;
+        align-items: center;
         gap: 1.5rem;
     }
 
@@ -527,6 +466,78 @@
         align-items: center;
     }
 }
+
+/* Galaxy S9, Note 8, S8 */
+@media only screen and (max-width: 361px) and (min-width: 359px) {
+    .about-me {
+        text-align: center;
+        height: 400px;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about-me .description {
+        margin-top: 50px;
+        text-align: center;
+        font-size: 1.2rem;
+        width: auto;
+    }
+
+    .my-photo img {
+        width: 16.5rem;
+    }
+
+    .photo-title {
+        text-align: center;
+        margin-top: 0.5rem;
+        font-size: 1.20rem;
+    }
+
+    .technologies {
+        text-align: center;
+        margin-top: 4rem;
+        height: 38rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .technologies-items {
+        display: flex;
+        gap: 0.25rem;
+    }
+
+    .ul-technologies-top, .ul-technologies-bottom {
+        display: flex;
+        flex-direction: column;
+        margin-top: 0px;
+    }
+
+    .ul-technologies-top .technologies-element,
+    .ul-technologies-bottom .technologies-element {
+        margin: auto;
+        text-align: center;
+        height: 6rem;
+        width: 10rem;
+        align-items: center;
+        display: flex;
+    }
+
+    .ul-technologies-top .technologies-element .tech-container,
+    .ul-technologies-bottom .technologies-element .tech-container {
+        display: flex;
+        align-items: center;
+        border-radius: 8px;
+        padding: 6px;
+        min-width: 159px;
+        max-height: 87px;
+        justify-content: space-between;
+    }
+
+} 
 
 @media only screen and (min-width: 319px) and (max-width: 321px) {
     .main {
