@@ -1,3 +1,44 @@
+@media only screen and (max-width: 769px) and (min-width: 767px) {
+    .main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+
+    .about-me {
+        text-align: center;
+        width: auto;
+        height: 507px;
+        padding: 0;
+    }
+
+    .about-me .description {
+        margin-top: 50px;
+        text-align: center;
+        font-size: 20px;
+    }
+    
+    .technologies {
+        text-align: center;
+        margin-top: 6rem;
+        height: 40rem;
+    }
+
+    .technologies-items {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .ul-technologies-top, .ul-technologies-bottom {
+        display: flex;
+        flex-direction: column;
+        margin-top: 0px;
+    }
+}
+
 @media only screen and (max-width: 500px) {
     .nav-site .nav-my-name {
         margin: auto;
@@ -32,15 +73,13 @@
     .about-me {
         text-align: center;
         min-width: 355px;
-        height: 507px;
+        height: 450px;
         padding: 0;
-        margin-left: -21px;
     }
 
     .about-me .description {
         margin-top: 50px;
         text-align: center;
-        color: #ffffff;
         font-size: 20px;
         width: 21.5rem;
     }
@@ -48,15 +87,14 @@
     .technologies {
         text-align: center;
         margin-top: 6rem;
-        background-color: #c9d612;
-        color: #000000;
         height: 40rem;
     }
 
     .technologies-items {
         display: flex;
+        justify-content: center;
+        align-items: center;
         gap: 1rem;
-        margin-left: 15px;
     }
 
     .ul-technologies-top, .ul-technologies-bottom {
@@ -66,7 +104,30 @@
     }
 
     .projects-cards {
-        margin-left: 11.5%;
+        display: flex;
+        gap: 1rem;
+    }
+} 
+
+@media only screen and (max-width: 426px) and (min-width: 424px) {
+    .main {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .my-photo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about-me {
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
 
@@ -87,7 +148,6 @@
     .about-me .description {
         margin-top: 50px;
         text-align: center;
-        color: #ffffff;
         font-size: 1.2;
         width: 22rem;
     }
@@ -95,8 +155,6 @@
     .technologies {
         text-align: center;
         margin-top: 2rem;
-        background-color: #c9d612;
-        color: #000000;
         height: 38rem;
     }
 
@@ -128,7 +186,6 @@
     .about-me .description {
         margin-top: 50px;
         text-align: center;
-        color: #ffffff;
         font-size: 1.2;
         width: 22rem;
     }
@@ -136,8 +193,6 @@
     .technologies {
         text-align: center;
         margin-top: 2rem;
-        background-color: #c9d612;
-        color: #000000;
         height: 38rem;
     }
 
@@ -165,7 +220,6 @@
     .about-me .description {
         margin-top: 50px;
         text-align: center;
-        color: #ffffff;
         font-size: 1.2;
         width: 21rem;
     }
@@ -183,8 +237,6 @@
     .technologies {
         text-align: center;
         margin-top: 4rem;
-        background-color: #c9d612;
-        color: #000000;
         height: 38rem;
     }
 
@@ -214,9 +266,7 @@
     .ul-technologies-bottom .technologies-element .tech-container {
         display: flex;
         align-items: center;
-        background-color: #000000;
         border-radius: 8px;
-        color: #c9d612;
         padding: 6px;
         min-width: 159px;
         max-height: 87px;
@@ -271,7 +321,6 @@
     .about-me .description {
         margin-top: 50px;
         text-align: center;
-        color: #ffffff;
         font-size: 20px;
         width: 21.5rem;
     }
@@ -279,8 +328,6 @@
     .technologies {
         text-align: center;
         margin-top: 6rem;
-        background-color: #c9d612;
-        color: #000000;
         height: 40rem;
     }
 
@@ -350,7 +397,6 @@
     .about-me .description {
         margin-top: 50px;
         text-align: center;
-        color: #ffffff;
         font-size: 20px;
         width: 365px;
     }
@@ -358,7 +404,6 @@
     .technologies {
         text-align: center;
         margin-top: 6rem;
-        background-color: #c9d612;
         color: #000000;
         height: 40rem;
     }
@@ -420,47 +465,39 @@
     .main {
         display: flex;
         flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
     }
 
     .about-me {
         text-align: center;
         min-width: 20rem;
-        height: 507px;
+        height: 500px;
         padding: 0;
-        margin-left: -21px;
+    }
+
+    .about-me .description {
+        margin-top: 50px;
+        text-align: center;
+        font-size: 20px;
+        width: 320px;
     }
 
     .technologies {
         text-align: center;
         margin-top: 6rem;
-        background-color: #c9d612;
-        color: #000000;
         height: 38rem;
     }
 
     .technologies-items {
         display: flex;
         gap: 1.5rem;
-        margin-left: 15px;
     }
 
     .ul-technologies-top, .ul-technologies-bottom {
         display: flex;
         flex-direction: column;
         margin-top: 0px;
-    }
-
-    .projects-cards {
-        margin-left: 50px;
-    }
-
-
-    .about-me .description {
-        margin-top: 50px;
-        text-align: center;
-        color: #ffffff;
-        font-size: 20px;
-        width: 320px;
     }
 
     .ul-technologies-top .technologies-element,
@@ -477,9 +514,7 @@
     .ul-technologies-bottom .technologies-element .tech-container {
         display: flex;
         align-items: center;
-        background-color: #000000;
         border-radius: 8px;
-        color: #c9d612;
         padding: 6px;
         min-width: 159px;
         max-height: 87px;
@@ -487,7 +522,44 @@
     }
 
     .projects-cards {
-        margin-left: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media only screen and (min-width: 319px) and (max-width: 321px) {
+    .main {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        padding: 0; 
+    }
+
+    .about-me {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-width: 80%;
+        height: 500px;
+    }
+    
+    .technologies {
+        text-align: center;
+        margin-top: 6rem;
+        height: 38rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .technologies-items {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0.5rem;
     }
 }
 

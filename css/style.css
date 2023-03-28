@@ -239,7 +239,12 @@ a {
 .projects img {
     width: 17rem;
     border-radius: 0.5rem;
+    transition: 0.4s;
 }
+
+/* .projects img:hover {
+    Olhar como deixar essa caixa por cima da tela
+} */
 
 .project-description {
     text-align: center;
