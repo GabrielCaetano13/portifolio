@@ -7,6 +7,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Inconsolata', monospace;
 }
 
 body {
@@ -38,63 +39,85 @@ a {
 }
 
 .nav-site {
-    background-color: #333333;
+    background-color: rgba(51, 51, 51, 0.85);
+    width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
     padding: 1rem;
+    transition: 0.5s;
+    top: 0;
+    position: fixed;
+    z-index: 1;
+    backdrop-filter: blur(10px);
 }
+
+.nav-site--scrolled {
+    width: 100%;
+    background-color: rgba(51, 51, 51, 0.95); 
+    backdrop-filter: blur(20px); 
+  }
 
 .nav-my-name button {
     background-color: transparent;
-    border: none;
+    border: 2px solid transparent;
+    border-bottom: 2px solid transparent;
     color: #ffffff;
-    font-weight: bold;
     cursor: pointer;
-    width: 10rem;
+    width: 15rem;
     height: 2rem;
     transition: 0.5s;
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 
 .nav-link {
     color: #ffffff;
-    font-weight: bold;
+    border: 2px solid transparent;
     text-align: center;
+    transition: 0.5s;
 }
 
 .nav-list {
     list-style: none;
     display: flex;
-    gap: 0.5rem;
+    border: 2px solid transparent;
+    gap: 0.1rem;
+    transition: 0.5s;
 }
 
-.nav-item:hover {
-    background-color: #000000;
-    border-radius: 0.5rem;
-    transition: 0.5s;
+.nav-site .welcome-message {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 26px;
 }
 
 .nav-item .nav-link button {
     background-color: transparent;
-    border: none;
+    border: 2px solid transparent;
+    border-bottom: 2px solid transparent;
     color: #fffffe;
-    font-weight: bold;
     cursor: pointer;
     width: 8rem;
     height: 2rem;
     transition: 0.5s;
-    font-size: 1rem;
+    font-size: 1.1rem;
+}
+
+.nav-item:hover {
+    border-radius: 0.5rem;
+    transition: 0.5s;
 }
 
 .nav-item .nav-link button:hover {
     color: #c9d612;
+    border-bottom: 2px solid #c9d612;
     transition: 0.5s;
 }
 
 .nav-my-name button:hover {
     color: #c9d612;
-    background-color: #000000;
-    border-radius: 0.5rem;
+    border-bottom: 2px solid #c9d612;
     transition: 0.5s;
 }
 
