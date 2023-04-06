@@ -86,7 +86,6 @@ a {
 }
 
 .nav-site .welcome-message {
-    display: flex;
     align-items: center;
     justify-content: center;
     font-size: 26px;
@@ -107,6 +106,14 @@ a {
 .nav-item:hover {
     border-radius: 0.5rem;
     transition: 0.5s;
+}
+
+.mobile-menu-icon {
+    display: none;
+}
+
+.mobile-menu {
+    display: none;
 }
 
 .nav-item .nav-link button:hover {
