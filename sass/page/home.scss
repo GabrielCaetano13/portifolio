@@ -1,0 +1,50 @@
+.container00 {
+    &.container01 {
+        background-color: $primary-color;
+    }
+
+    &.container02 {
+        background-color: $primary-color;
+    }
+
+    &.container03 {
+        background-color: $primary-color;
+    }
+
+    &.container04 {
+        background-color: $primary-color;
+    }
+}
+
+.footer {
+    background-color: black;
+    height: 15vh;
+    font-size: 16px;
+    font-weight: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    .btn {
+        padding: 10px;
+        margin-right: 5px;
+        width: 150px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    a {
+        text-decoration: none;
+        color: white;
+        &:hover {
+            color: white;
+        }
+    }
+
+    .copyGabriel {
+        color: white;
+    }
+}
