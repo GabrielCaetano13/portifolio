@@ -6,15 +6,13 @@
     border-bottom: 1px solid white;
 }
 
-#teste {
-    transition: 0.5s;
+#header {
     position: fixed;
     z-index: 1;
     backdrop-filter: blur(10px);
 }
 
 #header--scrolled {
-    width: 100%;
     background-color: rgba(51, 51, 51, 0.95); 
     backdrop-filter: blur(20px); 
 }
