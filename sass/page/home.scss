@@ -1,10 +1,47 @@
+.ancor {
+    text-decoration: none;
+}
+
 .container00 {
     &.container01 {
         background-color: $primary-color;
     }
 
     &.container02 {
-        background-color: $primary-color;
+        background-color: $secundary-color;
+
+        .aboutSection {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            height: 100vh;
+        
+            .description {
+                display: flex;
+                flex-direction: column;
+                gap: 30px;
+            }
+        
+            .largeTitle {
+                width: 580px;
+            
+                strong {
+                    color: $color-test3;
+                }
+            }
+            
+            .my-photo {
+                border-radius: 100%;
+                border: 4px solid $color-test3;
+                width: 350px;
+            }
+            
+            .my-photo-description {
+                text-align: center;
+                color: $color-test3;
+            }
+        }
     }
 
     &.container03 {
@@ -12,12 +49,16 @@
     }
 
     &.container04 {
+        background-color: $secundary-color;
+    }
+
+    &.container05 {
         background-color: $primary-color;
     }
 }
 
 .footer {
-    background-color: black;
+    background-color: $secundary-color;
     height: 15vh;
     font-size: 16px;
     font-weight: 500px;

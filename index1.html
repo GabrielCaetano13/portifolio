@@ -14,11 +14,11 @@
     </head>
     <body>
         <div class="container-fluid container00 container01">
-            <div class="container">
-                <header class="header">
+            <div class="container" id="home">
+                <header class="header" id="teste">
                     <nav class="navbar navbar-expand-lg navbar-dark bg-transparent pt-4">
                         <div class="container-fluid teste">
-                            <a href="/index.html">
+                            <a class="ancor" href="#home">
                                 <h1 class="logoPc img-fluid">Gabriel Caetano</h1>
                             </a>
                             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -55,17 +55,20 @@
             </div>
         </div>
         <div class="container-fluid container00 container02">
-            <div class="container" id="about-me">
-                <p class="h5" id="launchComing">Meu nome é Gabriel, tenho 20 anos, graduando no curso de Análise e Desenvolvimento de Sistemas, onde comecei em janeiro de 2022, sempre gostei de tecnologia, e ao entrar neste curso me deparei com a capacidade de criar sites, aplicativos, plataformas, dentre várias outras possibilidades. Ao longo dos estudos fui me interessando pelo Desenvolvimento Web, no momento estou estudando para ser um dev Front-End, porém quero continuar evoluindo e seguir caminhos como Back-End e se tornar Full Stack.</p>
-                <div class="my-photo">
-                    <img class="img-fluid" src="./assets/images/my-photo.jpg" alt="Minha foto de perfil do github">
-                    <p class="h2">Front-End Web Developer</p>
+            <div class="container aboutSection" id="about-me">
+                <div class="description">
+                    <p class="h1">Sobre mim</p>
+                    <p class="h5 largeTitle" id="launchComing">Meu nome é Gabriel, tenho 20 anos, graduando no curso de <strong>Análise e Desenvolvimento de Sistemas</strong> pelo Centro Universitário de Viçosa - Univiçosa. Sempre gostei de tecnologia, ao entrar neste curso me deparei com a possibilidade de criar sites, aplicativos, plataformas, entre vários outros caminhos. Ao longo dos estudos fui me interessando pelo  <strong>desenvolvimento web</strong>, no momento estou estudando as tecnologias <strong>Front-End</strong> mais atuais do mercado, porém quero sempre continuar evoluindo e seguir os caminhos do <strong>Back-End</strong> visando se tornar um <strong>Dev Full Stack.</strong></p>
+                </div>
+                <div>
+                    <img class="img-fluid my-photo" src="./assets/images/my-photo.jpg" alt="Minha foto de perfil do github">
+                    <p class="h2 my-photo-description mt-3">Web Developer</p>
                 </div>
             </div>
         </div>
         <div class="container-fluid container00 container03">
             <div class="container" id="technologies">
-                <p class="h1" id="launchComing">SEÇÃO DE TECNOLGIAS AQUI</p>
+                <p class="h1" id="launchComing">SEÇÃO DE TECNOLOGIAS AQUI</p>
             </div>
         </div>
         <div class="container-fluid container00 container04">
@@ -73,7 +76,12 @@
                 <p class="h1" id="launchComing">SEÇÃO DE PROJETOS AQUI</p>
             </div>
         </div>
-        <footer class="container-fluid footer" id="contact">
+        <div class="container-fluid container00 container05">
+            <div class="container" id="contact">
+                <p class="h1" id="launchComing">SEÇÃO DE CONTATO AQUI</p>
+            </div>
+        </div>
+        <footer class="container-fluid footer">
             <span class="me-4 copyGabriel">Gabriel Caetano &copy;2023</span>
             <button class="btn btn-outline-danger">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">

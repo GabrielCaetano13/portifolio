@@ -1,9 +1,27 @@
 @import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap");
+* {
+  color: white;
+}
+
 .header {
   font-size: 16px;
   font-weight: bold;
   display: flex;
   justify-content: space-around;
+  border-bottom: 1px solid white;
+}
+
+#teste {
+  transition: 0.5s;
+  position: fixed;
+  z-index: 1;
+  backdrop-filter: blur(10px);
+}
+
+#header--scrolled {
+  width: 100%;
+  background-color: rgba(51, 51, 51, 0.95);
+  backdrop-filter: blur(20px);
 }
 
 .logoPc {
@@ -35,21 +53,55 @@
   margin-top: 5px;
 }
 
+.ancor {
+  text-decoration: none;
+}
+
 .container00.container01 {
   background-color: #0a1817;
 }
 .container00.container02 {
-  background-color: #0a1817;
+  background-color: #060f11;
+}
+.container00.container02 .aboutSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+.container00.container02 .aboutSection .description {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.container00.container02 .aboutSection .largeTitle {
+  width: 580px;
+}
+.container00.container02 .aboutSection .largeTitle strong {
+  color: #f5c05a;
+}
+.container00.container02 .aboutSection .my-photo {
+  border-radius: 100%;
+  border: 4px solid #f5c05a;
+  width: 350px;
+}
+.container00.container02 .aboutSection .my-photo-description {
+  text-align: center;
+  color: #f5c05a;
 }
 .container00.container03 {
   background-color: #0a1817;
 }
 .container00.container04 {
+  background-color: #060f11;
+}
+.container00.container05 {
   background-color: #0a1817;
 }
 
 .footer {
-  background-color: black;
+  background-color: #060f11;
   height: 15vh;
   font-size: 16px;
   font-weight: 500px;
