@@ -1,26 +1,24 @@
 .header {
     font-size: 16px;
     font-weight: bold;
-    display: flex;
-    justify-content: space-around;
-    border-bottom: 1px solid white;
 }
 
 #header {
-    position: fixed;
-    z-index: 1;
-    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid white;
+    // // position: fixed;
+    // z-index: 1;
+    // backdrop-filter: blur(10px);
 }
 
-#header--scrolled {
-    background-color: rgba(51, 51, 51, 0.95); 
-    backdrop-filter: blur(20px); 
-}
+// #header--scrolled {
+//     background-color: rgba(51, 51, 51, 0.95); 
+//     backdrop-filter: blur(20px); 
+// }
 
 .logoPc {
-    width: 300px;
-    margin-left: -10px;
-    margin-right: 430px;
+    width: 400px;
 }
 
 .container00 {
@@ -36,6 +34,7 @@
 
 .conteudoInicial {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
 }

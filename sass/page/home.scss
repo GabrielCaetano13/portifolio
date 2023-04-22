@@ -12,6 +12,7 @@
 
         .aboutSection {
             display: flex;
+            flex-wrap: wrap;
             justify-content: space-between;
             align-items: center;
             width: 100%;
@@ -55,14 +56,6 @@
     &.container05 {
         background-color: $primary-color;
     }
-}
-
-#p-section1 {
-    margin-top: 110px;
-}
-
-#gif-section1 {
-    margin-top: 110px;
 }
 
 .footer {
