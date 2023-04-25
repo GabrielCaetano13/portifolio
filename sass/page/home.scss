@@ -41,6 +41,7 @@
             .my-photo-description {
                 text-align: center;
                 color: $color-test3;
+                margin-top: 10px;
             }
         }
     }
@@ -66,7 +67,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-
+    gap: 10px;
 
     .btn {
         padding: 10px;
@@ -88,5 +89,65 @@
 
     .copyGabriel {
         color: white;
+    }
+}
+
+@media (max-width: 991px) {
+
+    #about-me {
+        text-align: center;
+        width: 100%;
+        height: 100vh;
+    
+        #description {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            width: 100%;
+        }
+
+        #launchComing {
+            width: 100%;
+        }
+
+        #my-photo {
+            width: 200px;
+        }
+
+        #photo-description-section {
+            margin: auto;
+        }
+
+        #my-photo-description {
+            margin-top: 0;
+        }
+    }
+}
+
+@media (max-width: 680px) {
+    .footer {
+        flex-direction: column;
+        height: auto;
+        gap: 10px;
+
+        .copyGabriel {
+            margin-top: 10px;
+        }
+        
+        .last-btn {
+            margin-bottom: 10px;
+        }
+    }
+}
+
+@media (max-width: 515px) {
+    #launchComing {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 348px) {
+    #launchComing {
+        font-size: 14px;
     }
 }

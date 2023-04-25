@@ -19,6 +19,7 @@
 
 .logoPc {
     width: 400px;
+    color: white;
 }
 
 .container00 {
@@ -26,6 +27,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    color: white;
 }
 
 .gifHello {
@@ -43,4 +45,23 @@
     display: inline-block;
     width: 90px;
     margin-top: 5px;
+}
+
+@media (max-width: 991px) {
+    .conteudoInicial {
+        align-items: center;
+        justify-content: center;
+        margin-top: 80px;
+    }
+
+    .gifHello {
+        width: 380px;
+    }
+}
+
+@media (max-width: 528px) {
+    #logoPc {
+        width: auto;
+        margin-right: 10px;
+    }
 }
