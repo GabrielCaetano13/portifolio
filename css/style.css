@@ -101,6 +101,55 @@
 .container00.container04 {
   background-color: #060f11;
 }
+.container00.container04 .carrosselSlide {
+  height: 90vh;
+}
+.container00.container04 .carrosselSlide .cardProject {
+  background-color: #0a1817;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+.container00.container04 .carrosselSlide .cardProject .titleProject {
+  text-align: center;
+  margin: 10px 0;
+}
+.container00.container04 .carrosselSlide .cardProject .imgProject {
+  margin: 10px 0;
+  width: 40%;
+  border-radius: 8px;
+}
+.container00.container04 .carrosselSlide .cardProject .descriptionProject {
+  margin: 10px 0;
+}
+.container00.container04 .carrosselSlide .cardProject .technologiesProject {
+  margin: 10px 0;
+  display: flex;
+  gap: 20px;
+  text-decoration: none;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+}
+.container00.container04 .carrosselSlide .cardProject .btnProject {
+  margin: 10px 0;
+  display: flex;
+  gap: 6px;
+}
+.container00.container04 .carrosselSlide .cardProject .btnProject .btn {
+  width: 150px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.container00.container04 .carrosselSlide .cardProject .btnProject .btn a {
+  text-decoration: none;
+  color: white;
+}
 .container00.container05 {
   background-color: #0a1817;
 }

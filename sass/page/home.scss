@@ -52,6 +52,64 @@
 
     &.container04 {
         background-color: $secundary-color;
+
+        .carrosselSlide {
+            height: 90vh;
+
+            .cardProject {
+                background-color: $primary-color;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                height: 80vh;
+
+                .titleProject {
+                    text-align: center;
+                    margin: 10px 0;
+                }
+
+                .imgProject {
+                    margin: 10px 0;
+                    width: 40%;
+                    border-radius: 8px;
+                }
+
+                .descriptionProject {
+                    margin: 10px 0;
+                }
+
+                .technologiesProject {
+                    margin: 10px 0;
+                    display: flex;
+                    gap: 20px;
+                    text-decoration: none;
+                    list-style: none;
+                    align-items: center;
+                    justify-content: center;
+                }
+
+                .btnProject {
+                    margin: 10px 0;
+                    display: flex;
+                    gap: 6px;
+                    
+                    .btn {
+                        width: 150px;
+                        text-align: center;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        gap: 10px;
+
+                        a {
+                            text-decoration: none;
+                            color: white;
+                        }
+                    }
+                }
+            }
+        }
     }
 
     &.container05 {
