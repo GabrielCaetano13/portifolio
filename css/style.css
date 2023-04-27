@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
 .header {
   font-size: 16px;
   font-weight: bold;
@@ -111,6 +113,8 @@
   justify-content: center;
   align-items: center;
   height: 80vh;
+  box-shadow: inset;
+  border-radius: 8px;
 }
 .container00.container04 .carrosselSlide .cardProject .titleProject {
   text-align: center;
@@ -123,6 +127,8 @@
 }
 .container00.container04 .carrosselSlide .cardProject .descriptionProject {
   margin: 10px 0;
+  text-align: center;
+  width: 70%;
 }
 .container00.container04 .carrosselSlide .cardProject .technologiesProject {
   margin: 10px 0;
@@ -132,6 +138,7 @@
   list-style: none;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
 }
 .container00.container04 .carrosselSlide .cardProject .btnProject {
   margin: 10px 0;
@@ -231,6 +238,9 @@
   #launchComing {
     font-size: 14px;
   }
+}
+* {
+  font-family: "Playfair Display", serif;
 }
 
 /*# sourceMappingURL=style.css.map */
