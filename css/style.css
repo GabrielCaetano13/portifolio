@@ -1,6 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+body::-webkit-scrollbar {
+  width: 0.75rem;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: #060f11;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #f5c05a;
+  border: 3px solid #f5c05a;
+}
+
 .header {
   font-size: 16px;
   font-weight: bold;
@@ -9,7 +22,15 @@
 #header {
   display: flex;
   justify-content: space-around;
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid #f5c05a;
+}
+
+#nav-link {
+  transition: 0.5s;
+}
+#nav-link:hover {
+  color: #f5c05a;
+  border-bottom: 1px solid #f5c05a;
 }
 
 .logoPc {
@@ -99,6 +120,9 @@
 }
 .container00.container03 {
   background-color: #0a1817;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .container00.container03 .sectionTech {
   display: flex;
@@ -106,7 +130,7 @@
   gap: 10px 2%;
   align-items: center;
   justify-content: center;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
 }
 .container00.container03 .cardTech {
   width: 300px;
@@ -268,6 +292,11 @@
 @media (max-width: 515px) {
   #launchComing {
     font-size: 16px;
+  }
+}
+@media (max-width: 375px) {
+  .techDesc {
+    font-size: 14px;
   }
 }
 @media (max-width: 348px) {
