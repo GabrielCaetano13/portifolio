@@ -100,6 +100,42 @@
 .container00.container03 {
   background-color: #0a1817;
 }
+.container00.container03 .sectionTech {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 2%;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+.container00.container03 .cardTech {
+  width: 300px;
+  height: 200px;
+  padding: 10px;
+  background-color: #060f11;
+  border-radius: 8px;
+  border-bottom: 2px solid #f5c05a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.container00.container03 .cardTech img {
+  width: 80px;
+}
+.container00.container03 .cardTech .aboutTech {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.container00.container03 .cardTech .aboutTech .techTitle {
+  margin-bottom: 0;
+  font-weight: bold;
+  color: #f5c05a;
+}
+.container00.container03 .cardTech .aboutTech .techDesc {
+  margin-bottom: 0;
+}
 .container00.container04 {
   background-color: #060f11;
 }
@@ -238,9 +274,6 @@
   #launchComing {
     font-size: 14px;
   }
-}
-* {
-  font-family: "Playfair Display", serif;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -48,6 +48,48 @@
 
     &.container03 {
         background-color: $primary-color;
+
+        .sectionTech {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px 2%;
+            align-items: center;
+            justify-content: center;
+            padding-bottom: 10px;
+        }
+
+        .cardTech {
+            width: 300px;
+            height: 200px;
+            padding: 10px;
+            background-color: $secundary-color;
+            border-radius: 8px;
+            border-bottom: 2px solid $color-test3;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 30px;
+
+            img {
+                width: 80px;
+            }
+
+            .aboutTech {
+                display: flex;
+                flex-direction: column;
+                gap: 4px;
+
+                .techTitle {
+                    margin-bottom: 0;
+                    font-weight: bold;
+                    color: $color-test3;
+                }
+    
+                .techDesc {
+                    margin-bottom: 0;
+                }
+            }
+        }
     }
 
     &.container04 {
