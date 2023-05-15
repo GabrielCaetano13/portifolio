@@ -210,6 +210,40 @@
 
     &.container05 {
         background-color: $primary-color;
+        display: flex;
+
+        .celular {
+            position: relative;
+            background-color: white;
+            $width-test: 100vh;
+
+            .imgPhone {
+                position: absolute;
+                z-index: 1;
+                width: $width-test;
+                border: 1px solid red;
+                background-color: white;
+            }
+
+            .navContact {
+                color: black;
+                position: absolute;
+                z-index: 2;
+                border: 1px solid blue;
+                width: $width-test;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                gap: 10px;
+            }
+        }
+
+        .contactMeText {
+            color: white;
+            text-align: right;
+        }
     }
 }
 

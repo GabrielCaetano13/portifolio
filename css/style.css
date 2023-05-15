@@ -269,6 +269,35 @@ body::-webkit-scrollbar-thumb {
 }
 .container00.container05 {
   background-color: #0a1817;
+  display: flex;
+}
+.container00.container05 .celular {
+  position: relative;
+  background-color: white;
+}
+.container00.container05 .celular .imgPhone {
+  position: absolute;
+  z-index: 1;
+  width: 100vh;
+  border: 1px solid red;
+  background-color: white;
+}
+.container00.container05 .celular .navContact {
+  color: black;
+  position: absolute;
+  z-index: 2;
+  border: 1px solid blue;
+  width: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  gap: 10px;
+}
+.container00.container05 .contactMeText {
+  color: white;
+  text-align: right;
 }
 
 .footer {
