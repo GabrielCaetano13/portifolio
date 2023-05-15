@@ -132,7 +132,6 @@
                 justify-content: center;
                 align-items: center;
                 height: 80vh;
-                box-shadow: inset;
                 border-radius: 8px;
 
                 .box-img {
@@ -174,12 +173,15 @@
     
                     .technologiesProject {
                         display: flex;
-                        text-decoration: none;
-                        list-style: none;
+                        flex-direction: column;
                         align-items: center;
                         justify-content: center;
                         flex-wrap: wrap;
-                        gap: 10px;
+                        height: auto;
+                        list-style: circle;
+                        color: $color-test3;
+                        width: 100%;
+                        padding: 0;
                     }
     
                     .btnProject {
@@ -276,6 +278,50 @@
     }
 }
 
+@media (max-width: 992px) {
+    .container00 {
+        &.container04 {
+            .carrosselSlide {
+                .cardProject {
+                    flex-direction: column;
+
+                    .box-img {
+                        width: auto;
+                        margin-top: 5px;
+                        text-align: center;
+    
+                        .imgProject {
+                            width: 380px;
+                        }
+                    }
+
+                    .info-content {
+                        width: auto;
+                        height: auto;
+    
+                        .titleProject {
+                            margin-bottom: 20px;
+                        }
+        
+                        .descriptionProject {
+                            margin-bottom: 20px;
+                            width: 100%;
+                        }
+
+                        .technologiesProject{
+                            list-style: none;
+                            flex-direction: row;
+                            align-items: center;
+                            flex-wrap: wrap;
+                            gap: 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
 @media (max-width: 680px) {
     .footer {
         flex-direction: column;
@@ -295,6 +341,48 @@
 @media (max-width: 515px) {
     #launchComing {
         font-size: 16px;
+    }
+}
+
+@media (max-width: 425px) {
+    .container00 {
+        &.container04 {
+            .carrosselSlide {
+                .cardProject {
+                    .box-img {
+                        margin-top: -50px;
+
+                        .imgProject {
+                            width: 280px;
+                        }
+                    }
+
+                    .info-content {
+                        .titleProject {
+                            margin-bottom: 20px;
+                        }
+        
+                        .descriptionProject {
+                            margin-bottom: 20px;
+                            width: 200px;
+                        }
+
+                        .technologiesProject{
+                            gap: 10px;
+                            width: 250px;
+                        }
+
+                        .btnProject {
+                            gap: 4px;
+                
+                            .btn {
+                                width: 130px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
     }
 }
 

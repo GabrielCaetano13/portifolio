@@ -204,7 +204,6 @@ body::-webkit-scrollbar-thumb {
   justify-content: center;
   align-items: center;
   height: 80vh;
-  box-shadow: inset;
   border-radius: 8px;
 }
 .container00.container04 .carrosselSlide .cardProject .box-img {
@@ -241,12 +240,15 @@ body::-webkit-scrollbar-thumb {
 }
 .container00.container04 .carrosselSlide .cardProject .info-content .technologiesProject {
   display: flex;
-  text-decoration: none;
-  list-style: none;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 10px;
+  height: auto;
+  list-style: circle;
+  color: #f5c05a;
+  width: 100%;
+  padding: 0;
 }
 .container00.container04 .carrosselSlide .cardProject .info-content .btnProject {
   margin: 10px 0;
@@ -324,6 +326,37 @@ body::-webkit-scrollbar-thumb {
     margin-top: 0;
   }
 }
+@media (max-width: 992px) {
+  .container00.container04 .carrosselSlide .cardProject {
+    flex-direction: column;
+  }
+  .container00.container04 .carrosselSlide .cardProject .box-img {
+    width: auto;
+    margin-top: 5px;
+    text-align: center;
+  }
+  .container00.container04 .carrosselSlide .cardProject .box-img .imgProject {
+    width: 380px;
+  }
+  .container00.container04 .carrosselSlide .cardProject .info-content {
+    width: auto;
+    height: auto;
+  }
+  .container00.container04 .carrosselSlide .cardProject .info-content .titleProject {
+    margin-bottom: 20px;
+  }
+  .container00.container04 .carrosselSlide .cardProject .info-content .descriptionProject {
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  .container00.container04 .carrosselSlide .cardProject .info-content .technologiesProject {
+    list-style: none;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+}
 @media (max-width: 680px) {
   .footer {
     flex-direction: column;
@@ -340,6 +373,31 @@ body::-webkit-scrollbar-thumb {
 @media (max-width: 515px) {
   #launchComing {
     font-size: 16px;
+  }
+}
+@media (max-width: 425px) {
+  .container00.container04 .carrosselSlide .cardProject .box-img {
+    margin-top: -50px;
+  }
+  .container00.container04 .carrosselSlide .cardProject .box-img .imgProject {
+    width: 280px;
+  }
+  .container00.container04 .carrosselSlide .cardProject .info-content .titleProject {
+    margin-bottom: 20px;
+  }
+  .container00.container04 .carrosselSlide .cardProject .info-content .descriptionProject {
+    margin-bottom: 20px;
+    width: 200px;
+  }
+  .container00.container04 .carrosselSlide .cardProject .info-content .technologiesProject {
+    gap: 10px;
+    width: 250px;
+  }
+  .container00.container04 .carrosselSlide .cardProject .info-content .btnProject {
+    gap: 4px;
+  }
+  .container00.container04 .carrosselSlide .cardProject .info-content .btnProject .btn {
+    width: 130px;
   }
 }
 @media (max-width: 375px) {
