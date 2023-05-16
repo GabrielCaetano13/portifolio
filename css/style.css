@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
@@ -269,35 +270,60 @@ body::-webkit-scrollbar-thumb {
 }
 .container00.container05 {
   background-color: #0a1817;
-  display: flex;
 }
 .container00.container05 .celular {
   position: relative;
-  background-color: white;
 }
 .container00.container05 .celular .imgPhone {
   position: absolute;
   z-index: 1;
   width: 100vh;
-  border: 1px solid red;
-  background-color: white;
 }
 .container00.container05 .celular .navContact {
+  margin-left: 33.3333333333vh;
+  margin-top: 100px;
+  background-image: url(https://i.pinimg.com/originals/16/02/b2/1602b26c05ee78120695d592a68b8912.gif);
+  background-size: cover;
   color: black;
   position: absolute;
   z-index: 2;
-  border: 1px solid blue;
-  width: 100vh;
+  width: 33.3333333333vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  height: 100vh;
+  justify-content: center;
   gap: 10px;
+  height: 70vh;
+  border-radius: 30px;
+}
+.container00.container05 .celular .navContact a {
+  text-decoration: none;
+}
+.container00.container05 .celular .navContact #btnContact {
+  width: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
 }
 .container00.container05 .contactMeText {
+  padding: 50px;
+  width: 50%;
+  margin-left: 50%;
   color: white;
   text-align: right;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100vh;
+}
+.container00.container05 .contactMeText .arrowDownContact {
+  width: 200px;
+  -webkit-transform: rotate(90deg); /* Safari, Chrome, Opera */
+  -moz-transform: rotate(90deg); /* Firefox */
+  -ms-transform: rotate(90deg); /* IE 9+ */
+  -o-transform: rotate(90deg); /* Opera */
+  transform: rotate(90deg); /* Padrão */
 }
 
 .footer {
