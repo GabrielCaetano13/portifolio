@@ -277,24 +277,25 @@ body::-webkit-scrollbar-thumb {
 .container00.container05 .celular .imgPhone {
   position: absolute;
   z-index: 1;
-  width: 100vh;
+  width: 50%;
+  margin-top: 10%;
 }
 .container00.container05 .celular .navContact {
-  margin-left: 33.3333333333vh;
-  margin-top: 100px;
+  margin-left: 16.6666666667%;
+  margin-top: 195px;
   background-image: url(https://i.pinimg.com/originals/16/02/b2/1602b26c05ee78120695d592a68b8912.gif);
   background-size: cover;
   color: black;
   position: absolute;
   z-index: 2;
-  width: 33.3333333333vh;
+  width: 16.6666666667%;
+  height: 390px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 10px;
-  height: 70vh;
-  border-radius: 30px;
+  border-radius: 25px;
 }
 .container00.container05 .celular .navContact a {
   text-decoration: none;
@@ -356,31 +357,6 @@ body::-webkit-scrollbar-thumb {
   color: white;
 }
 
-@media (max-width: 991px) {
-  #about-me {
-    text-align: center;
-    width: 100%;
-    height: 100vh;
-  }
-  #about-me #description {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    width: 100%;
-  }
-  #about-me #launchComing {
-    width: 100%;
-  }
-  #about-me #my-photo {
-    width: 200px;
-  }
-  #about-me #photo-description-section {
-    margin: auto;
-  }
-  #about-me #my-photo-description {
-    margin-top: 0;
-  }
-}
 @media (max-width: 992px) {
   .container00.container04 .carrosselSlide .cardProject {
     flex-direction: column;
@@ -410,6 +386,31 @@ body::-webkit-scrollbar-thumb {
     align-items: center;
     flex-wrap: wrap;
     gap: 20px;
+  }
+}
+@media (max-width: 991px) {
+  #about-me {
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+  }
+  #about-me #description {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+  }
+  #about-me #launchComing {
+    width: 100%;
+  }
+  #about-me #my-photo {
+    width: 200px;
+  }
+  #about-me #photo-description-section {
+    margin: auto;
+  }
+  #about-me #my-photo-description {
+    margin-top: 0;
   }
 }
 @media (max-width: 680px) {

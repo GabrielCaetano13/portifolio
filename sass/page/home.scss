@@ -213,30 +213,30 @@
 
         .celular {
             position: relative;
-            $width-test: 100vh;
 
             .imgPhone {
                 position: absolute;
                 z-index: 1;
-                width: $width-test;
+                width: 50%;
+                margin-top: 10%;
             }
 
             .navContact {
-                margin-left: calc($width-test / 3);
-                margin-top: 100px;
+                margin-left: calc(50% / 3);
+                margin-top: 195px;
                 background-image: url(https://i.pinimg.com/originals/16/02/b2/1602b26c05ee78120695d592a68b8912.gif);
                 background-size: cover;
                 color: black;
                 position: absolute;
                 z-index: 2;
-                width: calc($width-test/3);
+                width: calc(50% / 3);
+                height: 390px;
                 display: flex;
                 flex-direction: column;
                 align-items: center;
                 justify-content: center;
                 gap: 10px;
-                height: 70vh;
-                border-radius: 30px;
+                border-radius: 25px;
 
                 a {
                     text-decoration: none;
@@ -308,38 +308,6 @@
     }
 }
 
-@media (max-width: 991px) {
-
-    #about-me {
-        text-align: center;
-        width: 100%;
-        height: 100vh;
-    
-        #description {
-            display: flex;
-            flex-direction: column;
-            gap: 20px;
-            width: 100%;
-        }
-
-        #launchComing {
-            width: 100%;
-        }
-
-        #my-photo {
-            width: 200px;
-        }
-
-        #photo-description-section {
-            margin: auto;
-        }
-
-        #my-photo-description {
-            margin-top: 0;
-        }
-    }
-}
-
 @media (max-width: 992px) {
     .container00 {
         &.container04 {
@@ -380,6 +348,38 @@
                     }
                 }
             }
+        }
+    }
+}
+
+@media (max-width: 991px) {
+
+    #about-me {
+        text-align: center;
+        width: 100%;
+        height: 100vh;
+    
+        #description {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            width: 100%;
+        }
+
+        #launchComing {
+            width: 100%;
+        }
+
+        #my-photo {
+            width: 200px;
+        }
+
+        #photo-description-section {
+            margin: auto;
+        }
+
+        #my-photo-description {
+            margin-top: 0;
         }
     }
 }
