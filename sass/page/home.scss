@@ -211,65 +211,118 @@
     &.container05 {
         background-color: $primary-color;
 
-        .celular {
-            position: relative;
+        .container {
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 8px;
 
-            .imgPhone {
-                position: absolute;
-                z-index: 1;
-                width: 50%;
-                margin-top: 10%;
-            }
-
-            .navContact {
-                margin-left: calc(50% / 3);
-                margin-top: 195px;
-                background-image: url(https://i.pinimg.com/originals/16/02/b2/1602b26c05ee78120695d592a68b8912.gif);
-                background-size: cover;
-                color: black;
-                position: absolute;
-                z-index: 2;
-                width: calc(50% / 3);
-                height: 390px;
+            .phone {
+                width: 320px;
+                max-width: 320px;
+                height: calc(100% - 20px);
+                background-color: #000;
+                border-radius: 30px;
                 display: flex;
-                flex-direction: column;
                 align-items: center;
                 justify-content: center;
-                gap: 10px;
-                border-radius: 25px;
 
-                a {
-                    text-decoration: none;
-                }
+                .screen {
+                    width: calc(100% - 10px);
+                    height: calc(100% - 10px);
+                    background: #a09696;
+                    border-radius: 30px;
+                    overflow: hidden!important;
+                    background-image: url(https://i.pinimg.com/736x/f3/44/06/f344063572aff86ecf4f0b4d3f695348.jpg);
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: cover;
 
-                #btnContact {
-                    width: 120px;
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                    gap: 5px;
+                    .top {
+                        width: 100%;
+                        height: 29px;
+                        display: flex;
+                        justify-content: space-between;
+                        background: rgba(51, 51, 51, 0.2);
+                        overflow: hidden;
+                        border-bottom: 1px solid hsla(0, 0%, 43%, 0.2);
+
+                        .dock-left, .dock-right {
+                            display: flex;
+                            align-items: center;
+                            text-align: center;
+                            flex: 1;
+                            color: white;
+                        }
+
+                        .dock-left {
+                            padding: 5px 10px 0 5px;
+                            font-size: 16px;
+                            font-weight: 300;
+                            color: white;
+                            text-shadow: -1px 0 #bbb, 0 1px #bbb, 1px 0 #bbb, 0 -1px #bbb;
+
+                            .clock {
+                                width: 100%;
+                            }
+                        }
+
+                        .dock {
+                            display: flex;
+                            align-items: flex-end;
+                            justify-content: center;
+                            height: 30px;
+                            padding: -5px 5px 0 5px;
+                            border-bottom-right-radius: 15px;
+                            border-bottom-left-radius: 15px;
+
+                            .sensor, .camera {
+                                width: 12px;
+                                height: 12px;
+                                background-color: rgba(27, 27, 27);
+                                border-radius: 50%;
+                                margin: 0 3px 14px 3px;
+                            }
+
+                            .speaker {
+                                width: 60px;
+                                height: 8px;
+                                background-color: #232323;
+                                border-radius: 7px;
+                                margin: 0 5px 17px 5px;
+                            }
+                        }
+
+                        .dock-right {
+                            display: flex;
+                            justify-content: space-around;
+                            padding: 5px 10px 0 5px;
+                        }
+                    }
                 }
             }
-        }
 
-        .contactMeText {
-            padding: 50px;
-            width: 50%;
-            margin-left: 50%;
-            color: white;
-            text-align: right;
-            display: flex;
-            justify-content: flex-end;
-            align-items: center;
-            height: 100vh;
+            .contact-me {
+                width: 50%;
+                display: flex;
+                flex-direction: row-reverse;
+                align-items: center;
 
-            .arrowDownContact {
-                width: 200px;
-                -webkit-transform: rotate(90deg); /* Safari, Chrome, Opera */
-                -moz-transform: rotate(90deg); /* Firefox */
-                -ms-transform: rotate(90deg); /* IE 9+ */
-                -o-transform: rotate(90deg); /* Opera */
-                transform: rotate(90deg); /* Padrão */
+                p {
+                    text-align: center;
+                }
+
+                img {
+                    width: 200px;
+
+                    -webkit-transform: rotate(90deg); /* Safari, Chrome, Opera */
+                    -moz-transform: rotate(90deg); 
+                    -ms-transform: rotate(90deg); 
+                    -o-transform: rotate(90deg); 
+                    transform: rotate(90deg); 
+                }
             }
         }
     }
