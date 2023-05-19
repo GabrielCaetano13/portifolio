@@ -232,10 +232,9 @@
                 .screen {
                     width: calc(100% - 10px);
                     height: calc(100% - 10px);
-                    background: #a09696;
                     border-radius: 30px;
                     overflow: hidden!important;
-                    background-image: url(https://i.pinimg.com/736x/f3/44/06/f344063572aff86ecf4f0b4d3f695348.jpg);
+                    background-image: url(https://i.pinimg.com/originals/74/50/38/7450386b83e9b389706549155fa6e082.jpg);
                     background-repeat: no-repeat;
                     background-position: center;
                     background-size: cover;
@@ -273,6 +272,7 @@
                             display: flex;
                             align-items: flex-end;
                             justify-content: center;
+                            background-color: #000;
                             height: 30px;
                             padding: -5px 5px 0 5px;
                             border-bottom-right-radius: 15px;
@@ -299,6 +299,83 @@
                             display: flex;
                             justify-content: space-around;
                             padding: 5px 10px 0 5px;
+                        }
+                    }
+
+                    .icons {
+                        overflow: -moz-hidden-unscrollable;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        flex-direction: column;
+                        flex: 1;
+                        height: 500px;
+                        max-height: 500px;
+                        padding-top: 18px;
+                        padding-bottom: 18px;
+                        flex-wrap: wrap;
+                    }
+
+                    .icon-app {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        width: 50px;
+                        height: 50px;
+                        background-color: rgba(2, 210, 246, 0.5);
+                        margin: 10px 10px 27px 10px;
+                        border-radius: 12px;
+                        color: #f8f8f8;
+                        transition: 0.5s;
+
+                        &:hover {
+                            transform: scale(1.2);
+                            transition: 0.5s;
+                        }
+
+                        a {
+                            text-decoration: none;
+                            color: #f8f8f8;
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+
+                            .icon {
+                                margin: 0 0 5px 0;
+                                font-size: 2em;
+                            }
+    
+                            span {
+                                width: auto;
+                                white-space: nowrap;
+                                font-size: 0.8em;
+                                color: #ffff;
+                                text-shadow: -1px 0 #333, 0 1px #333, 1px 0 #333, 0 -1px #333;
+                                margin-bottom: 0;
+                            }
+                        }
+
+                        
+                    }
+
+                    #dock-home {
+                        display: flex;
+                        flex: 1;
+                        justify-content: center;
+                        align-items: center;
+                    
+                        .buttons-home {
+                            display: flex;
+                            background-color: rgba(228, 228, 228, 0.2);
+                            border-radius: 20px;
+                            padding: 3px;
+
+                            .icon-app {
+                                margin: 7px;
+                                align-items: center;
+                                justify-content: center;
+                                font-size: 2em;
+                            }
                         }
                     }
                 }

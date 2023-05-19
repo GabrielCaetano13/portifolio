@@ -11,6 +11,9 @@
         <!-- Bootstrap css -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
+        <!-- Bootstrap icons -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
         <!-- Lib Animation css -->
         <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
@@ -443,20 +446,34 @@
                                 <div class="camera"></div>
                             </div>
                             <div class="dock-right">
-                                <div class="signal">0</div>
-                                <div class="wifi">1</div>
-                                <div class="battery">2</div>
+                                <div class="signal"><i class="fas fa-signal"></i></div>
+                                <div class="wifi"><i class="fas fa-wifi"></i></div>
+                                <div class="battery"><i class="fas fa-battery-half"></i></div>
                             </div>
                         </div>
                         <div class="icons">
-                            <div class="icon-app">Mail</div>
+                            <div class="icon-app">
+                                <a href="https://api.whatsapp.com/send?phone=5531982233978" target="_blank">
+                                    <div class="icon"><i class="fab fa-whatsapp"></i></div><span>Whatsapp</span>
+                                </a>
+                            </div>
+                            <div class="icon-app">
+                                <a href="mailto:gabrielcaetanolinkedin@gmail.com" target="_blank">
+                                    <div class="icon"><i class="fas fa-envelope"></i></div><span>Email</span>
+                                </a>
+                            </div>
+                            <div class="icon-app">
+                                <a href="https://www.linkedin.com/in/gabriel-de-paula-caetano-531861240/" target="_blank">
+                                    <div class="icon"><i class="fa-brands fa-linkedin"></i></div><span>Linkedin</span>
+                                </a>
+                            </div>
                         </div>
                         <div id="dock-home">
                             <div class="buttons-home">
-                                <div class="icon-app">Telephone</div>
-                                <div class="icon-app">Maps</div>
-                                <div class="icon-app">Whatsapp</div>
-                                <div class="icon-app">Message</div>
+                                <div class="icon-app"><i class="fas fa-home"></i></div>
+                                <div class="icon-app"><i class="fas fa-address-book"></i></div>
+                                <div class="icon-app"><i class="fas fa-camera"></i></div>
+                                <div class="icon-app"><i class="fa-brands fa-google"></i></div>
                             </div>
                         </div>
                     </div>
@@ -504,6 +521,9 @@
         <script>
             AOS.init();
         </script>
+
+        <!-- font-awesome script -->
+        <script src="https://kit.fontawesome.com/4bf3d9a503.js" crossorigin="anonymous"></script>
 
         <!-- Script do botão de voltar ao topo -->
         <script src="./js/src/btnTop.js"></script>
