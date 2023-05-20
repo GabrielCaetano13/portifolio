@@ -234,7 +234,7 @@
                     height: calc(100% - 10px);
                     border-radius: 30px;
                     overflow: hidden!important;
-                    background-image: url(https://i.pinimg.com/originals/74/50/38/7450386b83e9b389706549155fa6e082.jpg);
+                    background-image: url(https://img.elo7.com.br/product/original/43FDBCB/quadro-decorativo-face-do-leao-preto-e-branco-quadro-decorativo-leao-em-fundo-preto.jpg);
                     background-repeat: no-repeat;
                     background-position: center;
                     background-size: cover;
@@ -322,7 +322,7 @@
                         align-items: center;
                         width: 50px;
                         height: 50px;
-                        background-color: rgba(2, 210, 246, 0.5);
+                        background-color: rgba(0, 0, 0, 0.39);
                         margin: 10px 10px 27px 10px;
                         border-radius: 12px;
                         color: #f8f8f8;
@@ -512,6 +512,39 @@
             margin-top: 0;
         }
     }
+}
+
+@media (max-width: 768px) {
+    .container00 {
+        &.container05 {
+            .container {
+                display: flex;
+                flex-direction: column-reverse;
+                height: 120vh;
+
+                .contact-me {
+                    flex-direction: column;
+    
+                    img {
+                        width: 100px;
+    
+                        -webkit-transform: rotate(0deg); /* Safari, Chrome, Opera */
+                        -moz-transform: rotate(0deg); 
+                        -ms-transform: rotate(0deg); 
+                        -o-transform: rotate(0deg); 
+                        transform: rotate(0deg); 
+                    }
+                }
+
+                .phone {
+                    width: 300px;
+                    max-width: 300px;
+                    height: 620px;
+                }
+            }
+        }
+    }
+    
 }
 
 @media (max-width: 680px) {
