@@ -482,6 +482,15 @@ body::-webkit-scrollbar-thumb {
 .footer .copyGabriel {
   color: white;
 }
+.footer .lastUpdate {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #f5c05a;
+}
+.footer .lastUpdate #lastCommitDate {
+  margin-left: 5px;
+}
 
 @media (max-width: 992px) {
   .container00.container04 .carrosselSlide .cardProject {
